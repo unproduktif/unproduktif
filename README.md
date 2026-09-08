@@ -16,8 +16,7 @@ documenting the unfiltered process of figuring it all out.
 
 ### about me
 
-- 🎓 Computer Science undergrad at **University of Mataram**
-- 🧑‍🏫 Practicum assistant — digital image processing, database systems, algorithms & data structures, and digital systems
+- 🎓 Informatics Engineering undergrad at **University of Mataram**
 - 🌱 Currently building side-projects across web, mobile, and machine learning
 - 🤿 Off-screen: diving, hiking, and photography/videography
 - ⚡ Fun fact: I'll happily over-engineer a simple script if it means learning something new
