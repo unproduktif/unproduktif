@@ -15,7 +15,8 @@ jobs:
     steps:
       - name: Generate GitHub Profile Summary Cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          user: unproduktif
-          theme: github_dark
+          USERNAME: unproduktif
+          THEME: github_dark
