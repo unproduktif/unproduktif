@@ -39,8 +39,8 @@ documenting the unfiltered process of figuring it all out.
 ### github stats
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=unproduktif&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4ade80&icon_color=4ade80" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=unproduktif&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=4ade80" />
+  <img src="./profile-summary-card-output/stats.svg" alt="unproduktif's GitHub stats" />
+  <img src="./profile-summary-card-output/languages.svg" alt="unproduktif's most used languages" />
 </div>
 
 <div align="center">
@@ -50,5 +50,5 @@ documenting the unfiltered process of figuring it all out.
 ---
 
 <div align="center">
-<sub>this profile README is generated content — some widgets above (stats, streak, top languages) are live and update automatically via <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a>.</sub>
+<sub>the stats cards above are generated and committed by a GitHub Actions workflow in this repo (<code>.github/workflows/profile-summary-cards.yml</code>), refreshed daily — no third-party widget dependency.</sub>
 </div>

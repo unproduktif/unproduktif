@@ -3,6 +3,8 @@ name: Generate Profile Summary Cards
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "profile-summary-card-output/**"
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
@@ -13,10 +15,21 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate GitHub Profile Summary Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate stats cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: unproduktif
-          THEME: github_dark
+        run: node .github/scripts/generate-stats.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git diff --cached --quiet || git commit -m "chore: update profile stats card [skip ci]"
+          git push
