@@ -1,0 +1,16 @@
+<svg width="420" height="172" viewBox="0 0 420 172" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="419" height="171" rx="10" fill="#0d1117" stroke="#30363d" />
+  <text x="20" y="30" fill="#4ade80" font-family="Segoe UI, Ubuntu, Helvetica, sans-serif" font-size="16" font-weight="700">unproduktif's GitHub Stats</text>
+  <g font-family="Segoe UI, Ubuntu, Helvetica, sans-serif" font-size="13">
+    <style>.label{fill:#c9d1d9} .value{fill:#e6edf3;font-weight:600}</style>
+    
+      <text x="20" y="58" class="label">Public Repos:</text>
+      <text x="400" y="58" text-anchor="end" class="value">22</text>
+      <text x="20" y="86" class="label">Total Stars:</text>
+      <text x="400" y="86" text-anchor="end" class="value">0</text>
+      <text x="20" y="114" class="label">Total Forks:</text>
+      <text x="400" y="114" text-anchor="end" class="value">0</text>
+      <text x="20" y="142" class="label">Followers:</text>
+      <text x="400" y="142" text-anchor="end" class="value">8</text>
+  </g>
+</svg>
