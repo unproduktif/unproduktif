@@ -6,28 +6,28 @@
     
       <circle cx="24" cy="45" r="5" fill="#3572A5" />
       <text x="38" y="50" class="label">Python</text>
-      <text x="400" y="50" text-anchor="end" class="value">28.6%</text>
+      <text x="400" y="50" text-anchor="end" class="value">30.4%</text>
       <rect x="20" y="56" width="380" height="6" rx="3" fill="#21262d" />
-      <rect x="20" y="56" width="108.57142857142857" height="6" rx="3" fill="#3572A5" />
+      <rect x="20" y="56" width="115.6521739130435" height="6" rx="3" fill="#3572A5" />
       <circle cx="24" cy="71" r="5" fill="#A97BFF" />
       <text x="38" y="76" class="label">Kotlin</text>
-      <text x="400" y="76" text-anchor="end" class="value">19.0%</text>
+      <text x="400" y="76" text-anchor="end" class="value">17.4%</text>
       <rect x="20" y="82" width="380" height="6" rx="3" fill="#21262d" />
-      <rect x="20" y="82" width="72.38095238095238" height="6" rx="3" fill="#A97BFF" />
+      <rect x="20" y="82" width="66.08695652173913" height="6" rx="3" fill="#A97BFF" />
       <circle cx="24" cy="97" r="5" fill="#b07219" />
       <text x="38" y="102" class="label">Java</text>
-      <text x="400" y="102" text-anchor="end" class="value">14.3%</text>
+      <text x="400" y="102" text-anchor="end" class="value">13.0%</text>
       <rect x="20" y="108" width="380" height="6" rx="3" fill="#21262d" />
-      <rect x="20" y="108" width="54.285714285714285" height="6" rx="3" fill="#b07219" />
+      <rect x="20" y="108" width="49.565217391304344" height="6" rx="3" fill="#b07219" />
       <circle cx="24" cy="123" r="5" fill="#f7523f" />
       <text x="38" y="128" class="label">Blade</text>
-      <text x="400" y="128" text-anchor="end" class="value">9.5%</text>
+      <text x="400" y="128" text-anchor="end" class="value">8.7%</text>
       <rect x="20" y="134" width="380" height="6" rx="3" fill="#21262d" />
-      <rect x="20" y="134" width="36.19047619047619" height="6" rx="3" fill="#f7523f" />
+      <rect x="20" y="134" width="33.04347826086956" height="6" rx="3" fill="#f7523f" />
       <circle cx="24" cy="149" r="5" fill="#DA5B0B" />
       <text x="38" y="154" class="label">Jupyter Notebook</text>
-      <text x="400" y="154" text-anchor="end" class="value">9.5%</text>
+      <text x="400" y="154" text-anchor="end" class="value">8.7%</text>
       <rect x="20" y="160" width="380" height="6" rx="3" fill="#21262d" />
-      <rect x="20" y="160" width="36.19047619047619" height="6" rx="3" fill="#DA5B0B" />
+      <rect x="20" y="160" width="33.04347826086956" height="6" rx="3" fill="#DA5B0B" />
   </g>
 </svg>
